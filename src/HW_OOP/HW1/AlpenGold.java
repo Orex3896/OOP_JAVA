@@ -1,6 +1,6 @@
 package HW_OOP.HW1;
 
-public class AlpenGold {
+public class AlpenGold extends Product{
     String name;
     double callory;
 

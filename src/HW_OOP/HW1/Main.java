@@ -9,18 +9,13 @@ public class Main {
         product1.name = "Nestle";
         product1.callory = 300.50;
 
-        System.out.println(product1.displayInfo());
-
-
         Product product3 = new Product();
-        System.out.println(product3.displayInfo());
 
-        Product product4 = new Product("Шоколад 100",300);
-
-        Product product5 = new Product("Шоколад 300",900);
-
-
+        Product product4 = new AlpenGold("Шоколад 100",300);
+        Product product5 = new AlpenGold("Шоколад 300",900);
+        Product product6 = new AlpenGold("Шоколад 400",1100);
         List<Product> products = new ArrayList<>();
+
         products.add(product5);
         products.add(product4);
 

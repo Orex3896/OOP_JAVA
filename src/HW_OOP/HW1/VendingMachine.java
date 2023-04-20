@@ -13,7 +13,7 @@ public class VendingMachine {
         for (Product product: products){
             if(product instanceof AlpenGold){
                 AlpenGold chocolate = ((AlpenGold)products);
-                if(chocolate.name.equals(name))
+                if(chocolate.name.equals(name) && chocolate.getCallory() ==callory)
                     return chocolate;
             }
         }
